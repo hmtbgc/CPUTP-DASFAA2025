@@ -1,0 +1,6 @@
+algorithm="CLPU"
+embedding_root="../"${algorithm}"/linkpred_output/"
+result_root="../"${algorithm}"/linkpred_result/"
+graphname="facebook"
+filename="20241126_184146_facebook_HTP_threads16_d128_r10_l80_k10_lr0.025_seed1234_lastnum8"
+python predict.py -g ${graphname} -e ${embedding_root}${filename}".emb" -o ${result_root}${filename}".out"  
