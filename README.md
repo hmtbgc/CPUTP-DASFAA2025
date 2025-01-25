@@ -1,5 +1,5 @@
-# CPUTP
-code for DASFAA2025 submission
+# Accelerating DeepWalk via Context-Level Parameter Update and Huffman Tree Pruning
+accepted by DASFAA 2025 (short)
 
 # How to run
 
